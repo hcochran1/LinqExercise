@@ -7,6 +7,7 @@
   </Connection>
 </Query>
 
+//List all skills, alphabetically, showing only the description of the skill.
 from skill in Skills
 orderby skill.Description ascending
 select new

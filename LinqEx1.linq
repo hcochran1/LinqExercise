@@ -7,6 +7,7 @@
   </Connection>
 </Query>
 
+//Show all skills requiring a ticket and which employees have those skills. Include all the data as seen in the following image.
 from skill in Skills
 where skill.RequiresTicket.Equals("True")
 select new
